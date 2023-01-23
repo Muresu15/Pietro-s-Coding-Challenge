@@ -1,0 +1,66 @@
+body {
+    background-image: url(background.jpg) ; 
+    background-size: cover;   
+    font-family: 'Arial';
+    
+}
+.content-page {
+    background-color: rgba(18, 19, 20, 0.75);
+    padding: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border-radius: 5%;
+    color:aliceblue;
+    
+  
+}
+header {
+    
+    text-align: center;
+}
+
+.Logo {
+    height: 100px;
+    width: 230px;
+   
+}
+h1 {
+    font-family: 'Arial';
+    color: rgba(0,221,0,255);
+}
+
+.menu {
+    text-align: center;
+    background-color: rgba(0,221,0,255);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.Titolo-paragrafo {
+    display: inline-block;
+}
+
+.freccia::before {
+  content:"\21A6" ;  
+}
+.carica-Fede, .carica-Gino, .carica-Mike {
+    border-radius: 10px;
+    height: 30px;
+}
+
+.carica-Gino {
+    width: 100px;
+    background-color: blue;
+}
+
+.carica-Mike {
+    width: 280px;
+    background-color: brown;    
+}
+
+.carica-Fede {
+    width: 200px;
+    background-color: blueviolet;  
+}
